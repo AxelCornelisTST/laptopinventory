@@ -99,6 +99,14 @@
           "InvariantPropertyName": "PreferFrontCamera",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
+        },
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "true",
+          "InvariantPropertyName": "BeepOnScan",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
         }
       ],
       "DynamicProperties": [
@@ -290,6 +298,11 @@
         {
           "Category": "Design",
           "PropertyName": "Disabled",
+          "RuleProviderType": "User"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "BeepOnScan",
           "RuleProviderType": "User"
         },
         {

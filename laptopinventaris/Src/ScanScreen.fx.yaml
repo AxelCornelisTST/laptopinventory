@@ -103,6 +103,7 @@
 
         BarcodeReader As Streepjescodelezer:
             AlignInContainer: =AlignInContainer.Stretch
+            BeepOnScan: =false
             BorderFillColor: =RGBA(47, 81, 151, 1)
             Disabled: =false
             DisabledBorderColor: =RGBA(166, 166, 166, 1)
