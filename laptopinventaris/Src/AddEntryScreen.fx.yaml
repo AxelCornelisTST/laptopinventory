@@ -127,7 +127,7 @@ AddEntryScreen As screen:
             ZIndex: =2
 
             AddEntryForm As form:
-                BorderColor: =RGBA(245, 245, 245, 1)
+                BorderColor: =If(IsBlank([@ScanVariable]), RGBA(245, 245, 245, 1), RGBA(50, 40, 70, 125))
                 DataSource: ='Laptop Inventories'
                 Item: |-
                     =If(IsBlank([@ScanVariable]), {'Serial Number':"SNTEST"}, {})
