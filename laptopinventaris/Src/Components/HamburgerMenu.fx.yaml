@@ -1,0 +1,119 @@
+HamburgerMenu As CanvasComponent:
+    Fill: =RGBA(0, 0, 0, 0)
+    Height: =600
+    menuItem: |-
+        =Table(
+        {
+            Name: "New Scan",
+            Screen: ScanScreen
+        },{
+            Name: "New Entry",
+            Screen: AddEntryScreen
+        },{
+            Name: "Test",
+            Screen: Test
+        })
+    Width: =300
+    X: =0
+    Y: =0
+    ZIndex: =1
+
+    "Buttons As gallery.'BrowseLayout_Vertical_OneTextVariant_ver5.0'":
+        BorderColor: =RGBA(245, 245, 245, 1)
+        DelayItemLoading: =true
+        Height: =Buttons.AllItemsCount * Buttons.TemplateHeight
+        Items: =HamburgerMenu.menuItem
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        TemplatePadding: =0.00
+        TemplateSize: =83
+        Width: =Parent.Width
+        X: =0.00
+        Y: =0.00
+        ZIndex: =2
+
+        Background As rectangle:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            DisabledFill: =RGBA(161, 159, 157, 1)
+            Fill: =RGBA(15, 108, 189, 1)
+            FocusedBorderThickness: =4
+            Height: =Buttons.TemplateHeight
+            HoverFill: =RGBA(0,0,0,0)
+            OnSelect: =
+            PressedFill: =RGBA(0, 120, 212, 1)
+            Width: |
+                =Parent.Width
+            X: =0.00
+            Y: =0.00
+            ZIndex: =1
+
+        CardTitle As label:
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledColor: =RGBA(161, 159, 157, 1)
+            Font: =Font.'Segoe UI'
+            Height: =Buttons.TemplateHeight - Separator.Height
+            HoverColor: =RGBA(214, 221, 224, 1)
+            OnSelect: =
+            PaddingBottom: =0.00
+            PaddingLeft: =10
+            PaddingRight: =0.00
+            PaddingTop: =0
+            Size: =30
+            Text: =ThisItem.Name
+            Width: =Parent.Width
+            ZIndex: =2
+
+        Arrow As icon.ChevronRight:
+            AccessibleLabel: =Self.Tooltip
+            BorderColor: =RGBA(0, 0, 0, 0)
+            Color: =RGBA(13, 50, 61, 1)
+            DisabledBorderColor: =RGBA(245, 245, 245, 1)
+            DisabledColor: =RGBA(225, 223, 221, 1)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            DisplayMode: =DisplayMode.View
+            FocusedBorderThickness: =4
+            Height: =Parent.TemplateHeight
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverColor: =RGBA(16, 110, 190, 1)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Icon: =Icon.ChevronRight
+            OnSelect: = Set(HamburgerVisible, false); Navigate(ThisItem.Screen);
+            PaddingBottom: =15
+            PaddingTop: =15
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedColor: =RGBA(16, 110, 190, 1)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            Tooltip: ="View item details"
+            Width: =50
+            X: =Parent.Width - Self.Width
+            ZIndex: =3
+
+        Separator As rectangle:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            Fill: =RGBA(12, 59, 94, 1)
+            Height: =8
+            OnSelect: =Select(Parent)
+            Width: =Parent.Width
+            X: =0.00
+            Y: =Buttons.TemplateHeight - 7
+            ZIndex: =4
+
+        ClickCard As rectangle:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            DisabledFill: =RGBA(161, 159, 157, 1)
+            Fill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
+            Height: =Buttons.TemplateHeight
+            HoverFill: =RGBA(0,0,0,0)
+            OnSelect: =Set(HamburgerVisible, false); Navigate(ThisItem.Screen); Set(ScanVariable, Blank())
+            PressedFill: =RGBA(0, 120, 212, 1)
+            Width: |
+                =Parent.Width
+            X: =0.00
+            Y: =0.00
+            ZIndex: =5
+

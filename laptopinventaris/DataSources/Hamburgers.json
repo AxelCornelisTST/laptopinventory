@@ -1,0 +1,98 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cr897_hamburgers",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cr897_hamburger",
+    "MaxGetRowsCount": 500,
+    "Name": "Hamburgers",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "cr897_hamburger_AsyncOperations": "System Jobs",
+      "cr897_hamburger_BulkDeleteFailures": "Bulk Delete Failures",
+      "cr897_hamburger_DuplicateBaseRecord": "Duplicate Records (cr897_hamburger_DuplicateBaseRecord)",
+      "cr897_hamburger_DuplicateMatchingRecord": "Duplicate Records (cr897_hamburger_DuplicateMatchingRecord)",
+      "cr897_hamburger_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "cr897_hamburger_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "cr897_hamburger_ProcessSession": "Process Sessions",
+      "cr897_hamburger_SyncErrors": "Sync Errors",
+      "cr897_hamburgerid": "Hamburger",
+      "cr897_name": "Name",
+      "cr897_route": "Route",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Hamburgers",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Hamburgers (Weergaven)",
+    "Name": "_cr897_hamburger_views",
+    "RelatedEntityName": "Hamburgers",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "1d9c5b25-38cc-4f88-92df-4a8fb6325271": "Inactive Hamburgers",
+      "4e751ef1-bc27-436e-af5d-8658852165e0": "Hamburger Lookup View",
+      "5c76c171-f581-406a-b716-fceea215043a": "Hamburger Associated View",
+      "95d67989-e2cb-4dbd-8619-488e06316d79": "Active Hamburgers",
+      "d52cf0fc-cb62-4bb5-9c64-bf1aea9918e7": "Hamburger Advanced Find View"
+    }
+  },
+  {
+    "DisplayName": "Status (Hamburgers)_1",
+    "Name": "cr897_hamburger_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Hamburgers"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Hamburgers",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Hamburgers)_1",
+    "Name": "cr897_hamburger_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Hamburgers"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Hamburgers",
+    "Type": "OptionSetInfo"
+  }
+]

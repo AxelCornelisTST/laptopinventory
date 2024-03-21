@@ -1,0 +1,12 @@
+App As appinfo:
+    BackEnabled: =true
+    OnStart: =Set(HamburgerVisible, false);
+    Theme: =PowerAppsTheme
+
+    Host As hostControl.DefaultHostControlVariant:
+        OnCancel: =false
+        OnEdit: =false
+        OnNew: =false
+        OnSave: =false
+        OnView: =false
+

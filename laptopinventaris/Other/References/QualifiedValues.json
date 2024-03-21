@@ -1,0 +1,37 @@
+{
+  "QualifiedValues": [
+    {
+      "Kind": "default.cds_cr897_laptopinva726b_forms",
+      "Namespace": "Laptop Inventories (Formulieren)",
+      "Values": {
+        "Information": "1dbc30ac-cf9c-4bfd-8d17-6b67dd9c288e"
+      }
+    },
+    {
+      "Kind": "default.cds_cr897_hamburger_forms",
+      "Namespace": "Hamburgers (Formulieren)",
+      "Values": {
+        "Information": "0f4152e8-04f7-4a3f-9e74-90b4917fa8eb"
+      }
+    },
+    {
+      "Kind": "default.cds_cr897_laptopinva726b_forms",
+      "Namespace": "Laptop Inventories (Forms)",
+      "Values": {
+        "Information": "1dbc30ac-cf9c-4bfd-8d17-6b67dd9c288e"
+      }
+    },
+    {
+      "Kind": "default.cds_cr897_newtable_forms",
+      "Namespace": "New tables (Forms)",
+      "Values": {
+        "Information": "ccb8686e-bcac-4186-a512-7cd32058b45c"
+      }
+    },
+    {
+      "Kind": "default.cds_cr897_hamburger_forms",
+      "Namespace": "Hamburgers (Forms)",
+      "Values": {}
+    }
+  ]
+}

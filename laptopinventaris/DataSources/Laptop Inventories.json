@@ -1,0 +1,104 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cr897_laptopinva726bs",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cr897_laptopinva726b",
+    "MaxGetRowsCount": 500,
+    "Name": "Laptop Inventories",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "cr897_brand": "Brand",
+      "cr897_class": "Class",
+      "cr897_familyn": "Family Name",
+      "cr897_laptopinva726b_AsyncOperations": "System Jobs",
+      "cr897_laptopinva726b_BulkDeleteFailures": "Bulk Delete Failures",
+      "cr897_laptopinva726b_DuplicateBaseRecord": "Duplicate Records (cr897_laptopinva726b_DuplicateBaseRecord)",
+      "cr897_laptopinva726b_DuplicateMatchingRecord": "Duplicate Records (cr897_laptopinva726b_DuplicateMatchingRecord)",
+      "cr897_laptopinva726b_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "cr897_laptopinva726b_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "cr897_laptopinva726b_ProcessSession": "Process Sessions",
+      "cr897_laptopinva726b_SyncErrors": "Sync Errors",
+      "cr897_laptopinva726bid": "Laptop Inventory",
+      "cr897_model": "Model",
+      "cr897_name": "Name",
+      "cr897_parente": "Parent Email",
+      "cr897_process": "Processor",
+      "cr897_serialn": "Serial Number",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Laptop Inventories",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Laptop Inventories (Views)",
+    "Name": "_cr897_laptopinva726b_views",
+    "RelatedEntityName": "Laptop Inventories",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "065e24a9-1b4d-4f2e-97f4-304bb204182a": "Active Laptop Inventories",
+      "5febdce1-cc20-4467-a47b-f6b8fa3402fa": "Inactive Laptop Inventories",
+      "932946c0-d89a-49c2-b1eb-68293d646534": "Laptop Inventory Advanced Find View",
+      "c1d0f9b5-f3e8-4ae3-b221-ae72a11725ec": "Laptop Inventory Associated View",
+      "ff389ade-9b04-4b74-b6a3-5a255a7a2472": "Laptop Inventory Lookup View"
+    }
+  },
+  {
+    "DisplayName": "Status (Laptop Inventories)",
+    "Name": "cr897_laptopinva726b_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Laptop Inventories"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Laptop Inventories",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Laptop Inventories)",
+    "Name": "cr897_laptopinva726b_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Laptop Inventories"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Laptop Inventories",
+    "Type": "OptionSetInfo"
+  }
+]
