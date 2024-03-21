@@ -131,6 +131,8 @@ AddEntryScreen As screen:
                 DataSource: ='Laptop Inventories'
                 Item: |-
                     =If(IsBlank([@ScanVariable]), {'Serial Number':"SNTEST"}, {})
+                LayoutMinHeight: =250
+                LayoutMinWidth: =50
                 NumberOfColumns: =1
                 OnSuccess: =Navigate(ScanScreen); ResetForm(AddEntryForm); Set(ScanVariable, Blank())
                 Width: =Parent.Width

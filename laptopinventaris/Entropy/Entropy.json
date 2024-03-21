@@ -115,8 +115,8 @@
     "StarVisible34": 38,
     "StarVisible35": 48,
     "StarVisible36": 43,
-    "SubmitAddEntry": 115,
-    "SubmitEdit": 117,
+    "SubmitAddEntry": 113,
+    "SubmitEdit": 64,
     "Test": 12,
     "TitleAES": 68,
     "TitleScanContainer": 20,
@@ -124,7 +124,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "03/21/2024 18:31:20",
+  "HeaderLastSavedDateTimeUTC": "03/21/2024 19:49:41",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -474,11 +474,11 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.7365519,
+    "AnalysisLoadTime": 0.6434036,
     "ControlCount": {
       "647c8953c2a2403fbc0933a85f8f778b": 5,
       "BarcodeReader": 1,
-      "button": 5,
+      "button": 2,
       "form": 2,
       "gallery": 1,
       "galleryTemplate": 1,
@@ -490,7 +490,7 @@
       "text": 12,
       "typedDataCard": 16
     },
-    "DeserializationLoadTime": 1.7117311
+    "DeserializationLoadTime": 6.2263284
   },
   "WasLocalDatabaseReferencesEmpty": false
 }

@@ -113,17 +113,15 @@
             FillColor: =RGBA(56, 96, 178, 1)
             FillPortions: =1
             FontWeight: =FontWeight.Bold
-            Height: =
+            Height: =Parent.Height
             HoverBorderColor: =RGBA(88, 115, 171, 1)
             HoverContentColor: =RGBA(255, 255, 255, 1)
             HoverFillColor: =RGBA(47, 81, 151, 1)
-            LayoutMinHeight: =70
-            LayoutMinWidth: =280
             OnCancel: =false
             OnScan: |
                 =Set(
                     ScanVariable,
-                    "SN001a"
+                    "SN001"
                 );
                 //First(BarcodeReader4.Barcodes).Value
                 Set(

@@ -218,7 +218,7 @@
               },
               {
                 "Category": "Design",
-                "InvariantScript": "Parent.Width\r\n",
+                "InvariantScript": "Parent.Width\n",
                 "Property": "Width",
                 "RuleProviderType": "Unknown"
               },
@@ -798,7 +798,7 @@
               },
               {
                 "Category": "Design",
-                "InvariantScript": "Parent.Width\r\n",
+                "InvariantScript": "Parent.Width\n",
                 "Property": "Width",
                 "RuleProviderType": "Unknown"
               },
@@ -1618,12 +1618,12 @@
         "NameMapSourceSchema": "?"
       }
     ],
-    "LastModifiedTimestamp": "638466399121334041",
+    "LastModifiedTimestamp": "638466456461474371",
     "Name": "HamburgerMenu",
     "Rules": [
       {
         "Category": "Data",
-        "InvariantScript": "Table(\r\n{\r\n    Name: \"New Scan\",\r\n    Screen: ScanScreen\r\n},{\r\n    Name: \"New Entry\",\r\n    Screen: AddEntryScreen\r\n},{\r\n    Name: \"Test\",\r\n    Screen: Test\r\n})",
+        "InvariantScript": "Table(\n{\n    Name: \"New Scan\",\n    Screen: ScanScreen\n},{\n    Name: \"New Entry\",\n    Screen: AddEntryScreen\n},{\n    Name: \"Test\",\n    Screen: Test\n})",
         "Property": "menuItem",
         "RuleProviderType": "System"
       },
@@ -1693,7 +1693,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638466399121334041",
+  "LastModifiedTimestamp": "638466456461474371",
   "Name": "647c8953c2a2403fbc0933a85f8f778b",
   "OverridableProperties": {},
   "Version": "1.0"
