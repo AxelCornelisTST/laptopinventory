@@ -129,9 +129,8 @@ AddEntryScreen As screen:
             AddEntryForm As form:
                 BorderColor: =RGBA(245, 245, 245, 1)
                 DataSource: ='Laptop Inventories'
-                DefaultMode: =If(IsBlank([@ScanVariable]), FormMode.New, FormMode.Edit)
                 Item: |-
-                    =If(IsBlank([@ScanVariable]), {'Brand':"bob"}, {})
+                    =If(IsBlank([@ScanVariable]), {'Serial Number':"SNTEST"}, {})
                 NumberOfColumns: =1
                 Width: =Parent.Width
                 ZIndex: =1
