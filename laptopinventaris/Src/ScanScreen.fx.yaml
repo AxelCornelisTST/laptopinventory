@@ -123,7 +123,7 @@
             OnScan: |
                 =Set(
                     ScanVariable,
-                    "SN001"
+                    "SN001a"
                 );
                 //First(BarcodeReader4.Barcodes).Value
                 Set(
@@ -133,6 +133,7 @@
                         'Serial Number' = [@ScanVariable]
                     )
                 );
+                
                 If(
                     IsBlank(ScanRecord),
                     Navigate(
@@ -147,6 +148,11 @@
                 If(
                     IsBlank(ScanRecord),
                     SerialNumberField.Text = [@ScanVariable],
+                    {}
+                );
+                If(
+                    IsBlank(ScanRecord),
+                    ResetForm(AddEntryForm),
                     {}
                 );
             PaddingBottom: =10
