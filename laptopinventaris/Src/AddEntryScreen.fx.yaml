@@ -132,6 +132,7 @@ AddEntryScreen As screen:
                 Item: |-
                     =If(IsBlank([@ScanVariable]), {'Serial Number':"SNTEST"}, {})
                 NumberOfColumns: =1
+                OnSuccess: =Navigate(ScanScreen); ResetForm(AddEntryForm); Set(ScanVariable, Blank())
                 Width: =Parent.Width
                 ZIndex: =1
 
@@ -1070,7 +1071,7 @@ AddEntryScreen As screen:
             HoverColor: =RGBA(255, 255, 255, 1)
             HoverFill: =RGBA(16, 110, 190, 1)
             LayoutMinWidth: =50
-            OnSelect: =SubmitForm(AddEntryForm); Navigate(ScanScreen); ResetForm(AddEntryForm); Set(ScanVariable, Blank())
+            OnSelect: =SubmitForm(AddEntryForm); 
             PressedBorderColor: =RGBA(0, 69, 120, 1)
             PressedColor: =RGBA(255, 255, 255, 1)
             PressedFill: =RGBA(16, 110, 190, 1)

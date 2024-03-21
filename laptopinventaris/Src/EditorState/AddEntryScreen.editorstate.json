@@ -61,6 +61,14 @@
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "false",
+          "InvariantPropertyName": "OnSuccess",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
           "AutoRuleBindingString": "",
           "InvariantPropertyName": "Item",
           "IsLockable": false,
@@ -177,6 +185,11 @@
           "Category": "Design",
           "PropertyName": "FocusedBorderColor",
           "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Behavior",
+          "PropertyName": "OnSuccess",
+          "RuleProviderType": "User"
         }
       ],
       "StyleName": "defaultFormStyle",
