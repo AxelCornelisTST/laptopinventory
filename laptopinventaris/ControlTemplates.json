@@ -13,6 +13,20 @@
     "OverridableProperties": {},
     "Version": "1.0"
   },
+  "barcode": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/barcode",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPcfControl": false,
+    "IsPremiumPcfControl": false,
+    "IsWidgetTemplate": true,
+    "LastModifiedTimestamp": "0",
+    "Name": "barcode",
+    "OverridableProperties": {},
+    "Version": "2.2.0"
+  },
   "button": {
     "CustomGroupControlTemplateName": "",
     "FirstParty": true,
@@ -186,7 +200,7 @@
             }
           ]
         },
-        "Version": "1.337"
+        "Version": "1.338"
       }
     },
     "PCFDynamicSchemaForIRRetrieval": {

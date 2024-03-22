@@ -2508,330 +2508,323 @@
       "Type": 2
     },
     {
-      "IsControlSpecific": false,
-      "LoadingOrder": 14,
-      "ModifiedPath": "",
-      "Path": "{\"Id\":\"FormattingData\",\"Data\":{\"timeZoneUtcOffsetMinutes\":0,\"dateTimeFormatInfo\":{\"AMDesignator\":\"\",\"Calendar\":{\"MinSupportedDateTime\":\"0001-01-01T00:00:00\",\"MaxSupportedDateTime\":\"9999-12-31T23:59:59.9999999\",\"AlgorithmType\":1,\"CalendarType\":1,\"Eras\":[1],\"TwoDigitYearMax\":2049,\"IsReadOnly\":false},\"DateSeparator\":\"-\",\"FirstDayOfWeek\":1,\"CalendarWeekRule\":2,\"FullDateTimePattern\":\"dddd d MMMM yyyy HH:mm:ss\",\"LongDatePattern\":\"dddd d MMMM yyyy\",\"LongTimePattern\":\"HH:mm:ss\",\"MonthDayPattern\":\"d MMMM\",\"PMDesignator\":\"\",\"RFC1123Pattern\":\"ddd, dd MMM yyyy HH':'mm':'ss 'GMT'\",\"ShortDatePattern\":\"d-M-yyyy\",\"ShortTimePattern\":\"HH:mm\",\"SortableDateTimePattern\":\"yyyy'-'MM'-'dd'T'HH':'mm':'ss\",\"TimeSeparator\":\":\",\"UniversalSortableDateTimePattern\":\"yyyy'-'MM'-'dd HH':'mm':'ss'Z'\",\"YearMonthPattern\":\"MMMM yyyy\",\"AbbreviatedDayNames\":[\"zo\",\"ma\",\"di\",\"wo\",\"do\",\"vr\",\"za\"],\"ShortestDayNames\":[\"zo\",\"ma\",\"di\",\"wo\",\"do\",\"vr\",\"za\"],\"DayNames\":[\"zondag\",\"maandag\",\"dinsdag\",\"woensdag\",\"donderdag\",\"vrijdag\",\"zaterdag\"],\"AbbreviatedMonthNames\":[\"jan\",\"feb\",\"mrt\",\"apr\",\"mei\",\"jun\",\"jul\",\"aug\",\"sep\",\"okt\",\"nov\",\"dec\",\"\"],\"MonthNames\":[\"januari\",\"februari\",\"maart\",\"april\",\"mei\",\"juni\",\"juli\",\"augustus\",\"september\",\"oktober\",\"november\",\"december\",\"\"],\"IsReadOnly\":false,\"NativeCalendarName\":\"Gregoriaanse kalender\",\"AbbreviatedMonthGenitiveNames\":[\"jan\",\"feb\",\"mrt\",\"apr\",\"mei\",\"jun\",\"jul\",\"aug\",\"sep\",\"okt\",\"nov\",\"dec\",\"\"],\"MonthGenitiveNames\":[\"januari\",\"februari\",\"maart\",\"april\",\"mei\",\"juni\",\"juli\",\"augustus\",\"september\",\"oktober\",\"november\",\"december\",\"\"]},\"numberFormatInfo\":{\"CurrencyDecimalDigits\":2,\"CurrencyDecimalSeparator\":\",\",\"IsReadOnly\":false,\"CurrencyGroupSizes\":[3],\"NumberGroupSizes\":[3],\"PercentGroupSizes\":[3],\"CurrencyGroupSeparator\":\".\",\"CurrencySymbol\":\"€\",\"NaNSymbol\":\"NaN\",\"CurrencyNegativePattern\":12,\"NumberNegativePattern\":1,\"PercentPositivePattern\":1,\"PercentNegativePattern\":1,\"NegativeInfinitySymbol\":\"-∞\",\"NegativeSign\":\"-\",\"NumberDecimalDigits\":2,\"NumberDecimalSeparator\":\",\",\"NumberGroupSeparator\":\".\",\"CurrencyPositivePattern\":2,\"PositiveInfinitySymbol\":\"∞\",\"PositiveSign\":\"+\",\"PercentDecimalDigits\":2,\"PercentDecimalSeparator\":\",\",\"PercentGroupSeparator\":\".\",\"PercentSymbol\":\"%\",\"PerMilleSymbol\":\"‰\",\"NativeDigits\":[\"0\",\"1\",\"2\",\"3\",\"4\",\"5\",\"6\",\"7\",\"8\",\"9\"],\"DigitSubstitution\":1},\"timeZoneAdjusters\":[],\"formatInfoCultureName\":\"nl-NL\",\"formatter\":null,\"languagesByCode\":{\"1043\":\"Dutch (Netherlands)\",\"-1\":\"All Languages\"}}}",
-      "Type": 3
-    },
-    {
       "IsControlSpecific": true,
-      "LoadingOrder": 15,
+      "LoadingOrder": 14,
       "ModifiedPath": "",
       "Path": "/PCFControls/BarcodeReader/strings/BarcodeReaderButton.1025.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 15,
+      "LoadingOrder": 14,
       "ModifiedPath": "",
       "Path": "/PCFControls/BarcodeReader/strings/BarcodeReaderButton.1026.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 15,
+      "LoadingOrder": 14,
       "ModifiedPath": "",
       "Path": "/PCFControls/BarcodeReader/strings/BarcodeReaderButton.1027.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 15,
+      "LoadingOrder": 14,
       "ModifiedPath": "",
       "Path": "/PCFControls/BarcodeReader/strings/BarcodeReaderButton.1028.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 15,
+      "LoadingOrder": 14,
       "ModifiedPath": "",
       "Path": "/PCFControls/BarcodeReader/strings/BarcodeReaderButton.1029.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 15,
+      "LoadingOrder": 14,
       "ModifiedPath": "",
       "Path": "/PCFControls/BarcodeReader/strings/BarcodeReaderButton.1030.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 15,
+      "LoadingOrder": 14,
       "ModifiedPath": "",
       "Path": "/PCFControls/BarcodeReader/strings/BarcodeReaderButton.1031.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 15,
+      "LoadingOrder": 14,
       "ModifiedPath": "",
       "Path": "/PCFControls/BarcodeReader/strings/BarcodeReaderButton.1032.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 15,
+      "LoadingOrder": 14,
       "ModifiedPath": "",
       "Path": "/PCFControls/BarcodeReader/strings/BarcodeReaderButton.1033.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 15,
+      "LoadingOrder": 14,
       "ModifiedPath": "",
       "Path": "/PCFControls/BarcodeReader/strings/BarcodeReaderButton.1035.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 15,
+      "LoadingOrder": 14,
       "ModifiedPath": "",
       "Path": "/PCFControls/BarcodeReader/strings/BarcodeReaderButton.1036.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 15,
+      "LoadingOrder": 14,
       "ModifiedPath": "",
       "Path": "/PCFControls/BarcodeReader/strings/BarcodeReaderButton.1037.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 15,
+      "LoadingOrder": 14,
       "ModifiedPath": "",
       "Path": "/PCFControls/BarcodeReader/strings/BarcodeReaderButton.1038.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 15,
+      "LoadingOrder": 14,
       "ModifiedPath": "",
       "Path": "/PCFControls/BarcodeReader/strings/BarcodeReaderButton.1040.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 15,
+      "LoadingOrder": 14,
       "ModifiedPath": "",
       "Path": "/PCFControls/BarcodeReader/strings/BarcodeReaderButton.1041.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 15,
+      "LoadingOrder": 14,
       "ModifiedPath": "",
       "Path": "/PCFControls/BarcodeReader/strings/BarcodeReaderButton.1042.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 15,
+      "LoadingOrder": 14,
       "ModifiedPath": "",
       "Path": "/PCFControls/BarcodeReader/strings/BarcodeReaderButton.1043.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 15,
+      "LoadingOrder": 14,
       "ModifiedPath": "",
       "Path": "/PCFControls/BarcodeReader/strings/BarcodeReaderButton.1044.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 15,
+      "LoadingOrder": 14,
       "ModifiedPath": "",
       "Path": "/PCFControls/BarcodeReader/strings/BarcodeReaderButton.1045.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 15,
+      "LoadingOrder": 14,
       "ModifiedPath": "",
       "Path": "/PCFControls/BarcodeReader/strings/BarcodeReaderButton.1046.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 15,
+      "LoadingOrder": 14,
       "ModifiedPath": "",
       "Path": "/PCFControls/BarcodeReader/strings/BarcodeReaderButton.1048.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 15,
+      "LoadingOrder": 14,
       "ModifiedPath": "",
       "Path": "/PCFControls/BarcodeReader/strings/BarcodeReaderButton.1049.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 15,
+      "LoadingOrder": 14,
       "ModifiedPath": "",
       "Path": "/PCFControls/BarcodeReader/strings/BarcodeReaderButton.1050.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 15,
+      "LoadingOrder": 14,
       "ModifiedPath": "",
       "Path": "/PCFControls/BarcodeReader/strings/BarcodeReaderButton.1051.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 15,
+      "LoadingOrder": 14,
       "ModifiedPath": "",
       "Path": "/PCFControls/BarcodeReader/strings/BarcodeReaderButton.1053.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 15,
+      "LoadingOrder": 14,
       "ModifiedPath": "",
       "Path": "/PCFControls/BarcodeReader/strings/BarcodeReaderButton.1054.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 15,
+      "LoadingOrder": 14,
       "ModifiedPath": "",
       "Path": "/PCFControls/BarcodeReader/strings/BarcodeReaderButton.1055.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 15,
+      "LoadingOrder": 14,
       "ModifiedPath": "",
       "Path": "/PCFControls/BarcodeReader/strings/BarcodeReaderButton.1057.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 15,
+      "LoadingOrder": 14,
       "ModifiedPath": "",
       "Path": "/PCFControls/BarcodeReader/strings/BarcodeReaderButton.1058.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 15,
+      "LoadingOrder": 14,
       "ModifiedPath": "",
       "Path": "/PCFControls/BarcodeReader/strings/BarcodeReaderButton.1060.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 15,
+      "LoadingOrder": 14,
       "ModifiedPath": "",
       "Path": "/PCFControls/BarcodeReader/strings/BarcodeReaderButton.1061.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 15,
+      "LoadingOrder": 14,
       "ModifiedPath": "",
       "Path": "/PCFControls/BarcodeReader/strings/BarcodeReaderButton.1062.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 15,
+      "LoadingOrder": 14,
       "ModifiedPath": "",
       "Path": "/PCFControls/BarcodeReader/strings/BarcodeReaderButton.1063.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 15,
+      "LoadingOrder": 14,
       "ModifiedPath": "",
       "Path": "/PCFControls/BarcodeReader/strings/BarcodeReaderButton.1066.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 15,
+      "LoadingOrder": 14,
       "ModifiedPath": "",
       "Path": "/PCFControls/BarcodeReader/strings/BarcodeReaderButton.1069.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 15,
+      "LoadingOrder": 14,
       "ModifiedPath": "",
       "Path": "/PCFControls/BarcodeReader/strings/BarcodeReaderButton.1081.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 15,
+      "LoadingOrder": 14,
       "ModifiedPath": "",
       "Path": "/PCFControls/BarcodeReader/strings/BarcodeReaderButton.1086.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 15,
+      "LoadingOrder": 14,
       "ModifiedPath": "",
       "Path": "/PCFControls/BarcodeReader/strings/BarcodeReaderButton.1087.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 15,
+      "LoadingOrder": 14,
       "ModifiedPath": "",
       "Path": "/PCFControls/BarcodeReader/strings/BarcodeReaderButton.1110.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 15,
+      "LoadingOrder": 14,
       "ModifiedPath": "",
       "Path": "/PCFControls/BarcodeReader/strings/BarcodeReaderButton.2052.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 15,
+      "LoadingOrder": 14,
       "ModifiedPath": "",
       "Path": "/PCFControls/BarcodeReader/strings/BarcodeReaderButton.2070.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 15,
+      "LoadingOrder": 14,
       "ModifiedPath": "",
       "Path": "/PCFControls/BarcodeReader/strings/BarcodeReaderButton.2074.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 15,
+      "LoadingOrder": 14,
       "ModifiedPath": "",
       "Path": "/PCFControls/BarcodeReader/strings/BarcodeReaderButton.3076.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 15,
+      "LoadingOrder": 14,
       "ModifiedPath": "",
       "Path": "/PCFControls/BarcodeReader/strings/BarcodeReaderButton.3082.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 15,
+      "LoadingOrder": 14,
       "ModifiedPath": "",
       "Path": "/PCFControls/BarcodeReader/strings/BarcodeReaderButton.3098.json",
       "Type": 5
     },
     {
       "IsControlSpecific": false,
-      "LoadingOrder": 15,
+      "LoadingOrder": 14,
       "ModifiedPath": "",
       "Path": "{\"Id\":\"LocalizedStrings\",\"Data\":{\"LocStrings\":{\"PCF_BarcodeReaderButton\":\"Streepjescodelezer\",\"PCF_BarcodeReaderButton_description\":\"Streepjescodes lezen via uw apparaat\",\"PCF_BarcodeReader_Barcodes\":\"Streepjescodes\",\"PCF_BarcodeReader_Barcodes_Description\":\"Lijst met streepjescoderesultaten die zijn geretourneerd door de streepjescodelezer\",\"BarcodeReaderButton_OnScan\":\"Bij scannen van streepjescodelezer\",\"BarcodeReaderButton_OnScan_Description\":\"Gebeurtenis die wordt geactiveerd nadat een streepjescode is gescand\",\"BarcodeReaderButton_OnCancel\":\"Bij annuleren van streepjescodelezer\",\"BarcodeReaderButton_OnCancel_Description\":\"Gebeurtenis die wordt geactiveerd nadat het lezen van een streepjescode is geannuleerd\",\"PCF_ErrorHelper_GenericBarcodeReaderError\":\"Er is een fout opgetreden bij een poging om streepjescode te lezen\",\"BarcodeReader_Sample_Data_Prompt\":\"Het lezen van streepjescodes is alleen beschikbaar op apparaten die dit ondersteunen en bepaalde apparaten ondersteunen mogelijk alleen beperkte functionaliteit. Er zijn voorbeeldresultaten verstrekt om uw app te testen tijdens de creatie. Klik voor meer informatie.\",\"Inline_BarcodeReader_NotSupportedMessage\":\"Inline scan mode only works when opened on mobile devices\",\"PCF_ErrorHelper_BrErrorMessage\":\"Open deze app in de mobiele Power Apps-app op een geschikt apparaat. Klik hier om apparaatvereisten weer te geven en meer te weten te komen.\",\"PCF_ErrorHelper_BrAppUpdateRequired\":\"De versie van Power Apps die is geïnstalleerd op uw apparaat ondersteunt deze functie niet. Installeer de nieuwste versie vanuit de Store en probeer het opnieuw.\",\"BarcodeReader_PreferFrontCamera_Description\":\"Camera aan voorzijde gebruiken bij starten van lezer\",\"BarcodeTypesEnum\":\"Type streepjescode\",\"BarcodeTypesEnum_Description\":\"Kies het type streepjescode dat u nodig hebt.\",\"BarcodeType_Auto_Name\":\"Automatisch\",\"BarcodeType_Auto_Description\":\"Detecteert automatisch de streepjescode\",\"BarcodeType_Aztec_Description\":\"Scant op streepjescodes van het type Aztec\",\"BarcodeType_Codabar_Description\":\"Scant op streepjescodes van het type Codabar\",\"BarcodeType_Code39_Description\":\"Scant op streepjescodes van het type Code 39\",\"BarcodeType_Code93_Description\":\"Scant op streepjescodes van het type Code 93\",\"BarcodeType_Code128_Description\":\"Scant op streepjescodes van het type Code 128\",\"BarcodeType_DataMatrix_Description\":\"Scant op streepjescodes van het type Data Matrix\",\"BarcodeType_Ean_Description\":\"Scant op streepjescodes van het type EAN\",\"BarcodeType_I2of5_Description\":\"Scant op streepjescodes van het type Interleaved 2 of 5\",\"BarcodeType_Pdf417_Description\":\"Scant op streepjescodes van het type Pdf 417\",\"BarcodeType_QRCode_Description\":\"Scant op streepjescodes van het type QR Code\",\"BarcodeType_Rss14_Description\":\"Scant op streepjescodes van het type RSS 14\",\"BarcodeType_RssExpanded_Description\":\"Scant op streepjescodes van het type RSS Expanded\",\"BarcodeType_Upc_Description\":\"Scant op streepjescodes van het type UPC\",\"BarcodeType_Unknown\":\"Onbekend\",\"BarcodeModeEnum\":\"Scanmodus\",\"BarcodeModeEnum_Description\":\"Kies de scanmodus op basis van het verwachte aantal aanwezige streepjescodes.\",\"BarcodeMode_Automatically_Scan_Description\":\"Scant automatisch de eerste streepjescode. Nuttig als er slechts één streepjescode aanwezig is.\",\"BarcodeMode_Select_To_Scan_Description\":\"De lezer vraagt u een enkele streepjescode te kiezen wanneer er meerdere streepjescodes aanwezig zijn.\",\"BarcodeMode_Scan_Multiple_Description\":\"Met de lezer kunt u meerdere streepjescodes scannen, de ene na de andere.\",\"BarcodeMode_Scan_Inline\":\"Scan Inline\",\"BarcodeMode_Scan_Inline_Description\":\"Reader allows you to scan barcodes inline.\",\"BarcodeMode_Legacy_Scanner_Description\":\"Scannen met de vorige versie van de scanner, waardoor automatisch de eerste streepjescode wordt gescand. Nuttig voor achterwaartse compatibiliteit.\",\"BarcodeReader_BeepOnScan_Description\":\"Apparaat piept na het scannen van een streepjescode\",\"BarcodeReader_VibrateOnScan_Description\":\"Apparaat trilt na het scannen van een streepjescode\",\"ScanningQualityEnum\":\"Scankwaliteit\",\"ScanningQualityEnum_Description\":\"Kies een scankwaliteit. Een hogere kwaliteit is goed voor kleine streepjescodes, maar kan leiden tot trage prestaties.\",\"ScanningQualityEnum_Automatic\":\"Automatisch\",\"ScanningQuality_Low\":\"Laag\",\"ScanningQuality_Medium\":\"Gemiddeld\",\"ScanningQuality_High\":\"Hoog\",\"ScanningQuality_VeryHigh\":\"Zeer hoog\",\"Button_Base_Text\":\"Tekst\",\"Button_Base_Text_description\":\"Knoptekst\",\"Button_Base_PaddingTop\":\"Opvulling boven\",\"Button_Base_PaddingTop_description\":\"Knopopvulling boven\",\"Button_Base_PaddingBottom\":\"Opvulling onder\",\"Button_Base_PaddingBottom_description\":\"Knopopvulling onder\",\"Button_Base_PaddingLeft\":\"Opvulling links\",\"Button_Base_PaddingLeft_description\":\"Knopopvulling links\",\"Button_Base_PaddingRight\":\"Opvulling rechts\",\"Button_Base_PaddingRight_description\":\"Knopopvulling rechts\",\"Button_Base_FillColor\":\"Vulkleur\",\"Button_Base_FillColor_description\":\"Vulkleur van knop\",\"Button_Base_TextColor\":\"Tekstkleur\",\"Button_Base_TextColor_description\":\"Kleur van knoptekst\",\"Button_Base_BorderStyle\":\"Randstijl\",\"Button_Base_BorderStyle_description\":\"Randstijl van knop: ononderbroken, onderbroken, gestippeld, geen\",\"Button_Base_BorderThickness\":\"Randdikte\",\"Button_Base_BorderThickness_description\":\"Randdikte van knop (breedte)\",\"Button_Base_BorderFillColor\":\"Vulkleur voor rand\",\"Button_Base_BorderFillColor_description\":\"Vulkleur voor rand van de knop\",\"Button_Base_BorderRadius\":\"Randradius\",\"Button_Base_BorderRadius_description\":\"Randradius van de knop: bij 0 wordt een rechthoekige knop gemaakt, bij 100 een ronde knop\",\"Button_Base_Font\":\"Lettertype\",\"Button_Base_Font_description\":\"Lettertype van de tekst op de knop\",\"Button_Base_FontSize\":\"Tekengrootte\",\"Button_Base_FontSize_description\":\"Tekengrootte van de tekst op de knop\",\"Button_Base_FontWeight\":\"Tekengewicht\",\"Button_Base_FontWeight_description\":\"Tekengewicht van de tekst op de knop\",\"Button_Base_FontStyle\":\"Tekenstijl\",\"Button_Base_FontStyle_description\":\"Tekenstijl van de tekst op de knop\",\"Button_Base_TextAlignment\":\"Tekstuitlijning\",\"Button_Base_TextAlignment_description\":\"Tekstuitlijning van de tekst op de knop\",\"Button_Base_VerticalAlign\":\"Verticale uitlijning\",\"Button_Base_VerticalAlign_description\":\"Verticale uitlijning van de tekst op de knop\",\"Button_Base_Disabled\":\"Uitgeschakeld\",\"Button_Base_Disabled_description\":\"Hiermee schakelt u de knop uit\",\"Button_Base_DisabledColor\":\"Kleur bij uitschakeling\",\"Button_Base_DisabledColor_description\":\"Hiermee stelt u de inhoudskleur van de uitgeschakelde knop in\",\"Button_Base_DisabledFillColor\":\"Vulkleur bij uitschakeling\",\"Button_Base_DisabledFillColor_description\":\"Hiermee stelt u de vulkleur van de uitgeschakelde knop in\",\"Button_Base_DisabledBorderColor\":\"Randkleur bij uitschakeling\",\"Button_Base_DisabledBorderColor_description\":\"Hiermee stelt u de randkleur van de uitgeschakelde knop in\",\"Button_Base_PressedColor\":\"Kleur bij indrukken\",\"Button_Base_PressedColor_description\":\"Hiermee stelt u de inhoudskleur van de ingedrukte knop in\",\"Button_Base_PressedFillColor\":\"Vulkleur bij indrukken\",\"Button_Base_PressedFillColor_description\":\"Hiermee stelt u de vulkleur van de ingedrukte knop in\",\"Button_Base_PressedBorderColor\":\"Randkleur bij indrukken\",\"Button_Base_PressedBorderColor_description\":\"Hiermee stelt u de randkleur van de ingedrukte knop in\",\"Button_Base_HoverColor\":\"Kleur bij aanwijzen\",\"Button_Base_HoverColor_description\":\"Hiermee stelt u de inhoudskleur van de aangewezen knop in\",\"Button_Base_HoverFillColor\":\"Vulkleur bij aanwijzen\",\"Button_Base_HoverFillColor_description\":\"Hiermee stelt u de vulkleur van de aangewezen knop in\",\"Button_Base_HoverBorderColor\":\"Randkleur bij aanwijzen\",\"Button_Base_HoverBorderColor_description\":\"Hiermee stelt u de randkleur van de aangewezen knop in\",\"Button_Base\":\"Streepjescodelezer\",\"Button_Base_description\":\"Streepjescodes lezen via uw apparaat\",\"Button_Base_Loading\":\"Bezig met laden...\",\"Italic_Display_Key\":\"Cursief\",\"Italic_Desc_Key\":\"Cursief\",\"Underline_Display_Key\":\"Onderstrepen\",\"Underline_Desc_Key\":\"Onderstrepen\",\"Strikethrough_Display_Key\":\"Doorhalen\",\"Strikethrough_Desc_Key\":\"Doorhalen\",\"BarcodeType_MicroQRCode_Description\":\"Scant op streepjescodes van het type Micro QR Code\"}}}",
       "Type": 3

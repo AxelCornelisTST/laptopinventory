@@ -105,7 +105,7 @@
             AlignInContainer: =AlignInContainer.Stretch
             BeepOnScan: =false
             BorderFillColor: =RGBA(47, 81, 151, 1)
-            Disabled: =false
+            Disabled: =true
             DisabledBorderColor: =RGBA(166, 166, 166, 1)
             DisabledContentColor: =RGBA(166, 166, 166, 1)
             DisabledFillColor: =RGBA(244, 244, 244, 1)
@@ -117,6 +117,8 @@
             HoverBorderColor: =RGBA(88, 115, 171, 1)
             HoverContentColor: =RGBA(255, 255, 255, 1)
             HoverFillColor: =RGBA(47, 81, 151, 1)
+            LayoutMinHeight: =70
+            LayoutMinWidth: =280
             OnCancel: =false
             OnScan: |
                 =Set(
@@ -175,4 +177,10 @@
         X: =ScanContainer.PaddingLeft
         Y: =TitleScanContainer.Height + ScanContainer.PaddingBottom + ScanContainer.PaddingTop
         ZIndex: =2
+
+    Barcode1 As barcode:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        X: =15
+        Y: =100
+        ZIndex: =3
 
