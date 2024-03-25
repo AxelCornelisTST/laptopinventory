@@ -165,6 +165,7 @@
             PressedFillColor: =RGBA(255, 255, 255, 1)
             ScanningMode: ='BarcodeReader.ScanningMode'.AutomaticallyScan
             TextColor: =RGBA(255, 255, 255, 1)
+            Visible: =false
             Width: =Parent.Width
             X: =15.41
             Y: =141.66
@@ -179,7 +180,11 @@
         ZIndex: =2
 
     Barcode1 As barcode:
-        BorderColor: =RGBA(0, 0, 0, 0)
+        BarcodeType: =BarcodeType.Auto
+        BorderColor: =RGBA(40, 134, 222, 1)
+        Height: =Parent.Height - 115
+        Tooltip: ="scan"
+        Width: =Parent.Width - 30
         X: =15
         Y: =100
         ZIndex: =3

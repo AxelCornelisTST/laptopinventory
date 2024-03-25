@@ -11,7 +11,7 @@
   },
   "Properties": {
     "AppCreationSource": "AppFromTable",
-    "AppDescription": "",
+    "AppDescription": "scan stuff",
     "AppPreviewFlagsMap": {
       "aibuilderserviceenrollment": false,
       "allowmultiplescreensincanvaspages": false,
