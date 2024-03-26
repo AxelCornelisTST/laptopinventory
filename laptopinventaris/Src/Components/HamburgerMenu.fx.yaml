@@ -12,15 +12,14 @@ HamburgerMenu As CanvasComponent:
         Height: =Buttons.AllItemsCount * Buttons.TemplateHeight
         Items: |-
             =Table(
-            {
-                Name: "New Scan",
-                Screen: ScanScreen
-            },
-            {
-                Name: "Test",
-                Screen: Test
-            }
-            
+                {
+                    Name: "New Scan",
+                    Screen: ScanScreen
+                },
+                {
+                    Name: "Test",
+                    Screen: Test
+                }
             )
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
@@ -28,7 +27,6 @@ HamburgerMenu As CanvasComponent:
         TemplateSize: =83
         Width: =Parent.Width
         X: =0.00
-        Y: =10
         ZIndex: =2
 
         Background As rectangle:

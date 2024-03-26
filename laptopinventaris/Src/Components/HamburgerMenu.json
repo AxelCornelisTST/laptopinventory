@@ -1378,7 +1378,14 @@
           "PressedFill",
           "HoverFill",
           "X",
-          "Y",
+          {
+            "AFDDataSourceName": "",
+            "AutoRuleBindingEnabled": false,
+            "AutoRuleBindingString": "",
+            "InvariantPropertyName": "Y",
+            "IsLockable": false,
+            "NameMapSourceSchema": "?"
+          },
           {
             "AFDDataSourceName": "",
             "AutoRuleBindingEnabled": false,
@@ -1421,7 +1428,7 @@
           },
           {
             "Category": "Data",
-            "InvariantScript": "Table(\r\n{\r\n    Name: \"New Scan\",\r\n    Screen: ScanScreen\r\n},\r\n{\r\n    Name: \"Test\",\r\n    Screen: Test\r\n}\r\n\r\n)",
+            "InvariantScript": "Table(\n    {\n        Name: \"New Scan\",\n        Screen: ScanScreen\n    },\n    {\n        Name: \"Test\",\n        Screen: Test\n    }\n)",
             "Property": "Items",
             "RuleProviderType": "Unknown"
           },
@@ -1493,7 +1500,7 @@
           },
           {
             "Category": "Design",
-            "InvariantScript": "10",
+            "InvariantScript": "0",
             "Property": "Y",
             "RuleProviderType": "Unknown"
           },
@@ -1610,7 +1617,7 @@
       "Y",
       "ZIndex"
     ],
-    "LastModifiedTimestamp": "638470558706313607",
+    "LastModifiedTimestamp": "638470559196839985",
     "Name": "HamburgerMenu",
     "Rules": [
       {
@@ -1669,7 +1676,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638470558706313607",
+  "LastModifiedTimestamp": "638470559196839985",
   "Name": "647c8953c2a2403fbc0933a85f8f778b",
   "OverridableProperties": {},
   "Version": "1.0"
