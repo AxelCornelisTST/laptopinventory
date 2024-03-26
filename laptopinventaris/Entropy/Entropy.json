@@ -74,7 +74,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "03/26/2024 13:02:13",
+  "HeaderLastSavedDateTimeUTC": "03/26/2024 13:10:13",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -87,15 +87,17 @@
     "647c8953c2a2403fbc0933a85f8f778b": 0
   },
   "OrderDataSource": {
-    "CustomGallerySample": 7,
-    "Hamburgers": 8,
-    "Hamburgers\\cr897_hamburger_statecode": 2,
-    "Hamburgers\\cr897_hamburger_statuscode": 3,
-    "Hamburgers\\default.cds_cr897_hamburger_views": 5,
-    "Laptop Inventories": 6,
+    "CustomGallerySample": 9,
+    "Laptop Inventories": 8,
     "Laptop Inventories\\cr897_laptopinva726b_statecode": 0,
     "Laptop Inventories\\cr897_laptopinva726b_statuscode": 1,
-    "Laptop Inventories\\default.cds_cr897_laptopinva726b_views": 4
+    "Laptop Inventories\\default.cds_cr897_laptopinva726b_views": 6,
+    "Nieuwe tabellen": 10,
+    "Nieuwe tabellen\\cr897_nieuwetabel_statecode": 5,
+    "Nieuwe tabellen\\cr897_nieuwetabel_statuscode": 4,
+    "Nieuwe tabellen\\default.cds_cr897_nieuwetabel_views": 7,
+    "Nieuwe tabellen\\new_reserveentity_rp53fd1p1ekxpa_t7_1e3af0f448_statecode": 3,
+    "Nieuwe tabellen\\new_reserveentity_rp53fd1p1ekxpa_t7_1e3af0f448_statuscode": 2
   },
   "OrderGroupControls": {},
   "OrderPcfTemplate": {

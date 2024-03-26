@@ -1,7 +1,8 @@
 HamburgerMenu As CanvasComponent:
     Fill: =RGBA(0, 0, 0, 0)
     Height: =600
-    menuItem: =Hamburgers
+    menuItem: |-
+        =Table({Screen : "", Name: ""})
     Width: =300
     X: =0
     Y: =0
@@ -11,7 +12,7 @@ HamburgerMenu As CanvasComponent:
         BorderColor: =RGBA(245, 245, 245, 1)
         DelayItemLoading: =true
         Height: =Buttons.AllItemsCount * Buttons.TemplateHeight
-        Items: =Hamburgers
+        Items: ='Nieuwe tabellen'
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         TemplatePadding: =0.00

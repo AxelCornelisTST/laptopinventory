@@ -1421,7 +1421,7 @@
           },
           {
             "Category": "Data",
-            "InvariantScript": "Hamburgers",
+            "InvariantScript": "'Nieuwe tabellen'",
             "Property": "Items",
             "RuleProviderType": "Unknown"
           },
@@ -1609,14 +1609,21 @@
       "X",
       "Y",
       "ZIndex",
-      "menuItem"
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "Tabl({Screen : \"\", Name: \"\"})",
+        "InvariantPropertyName": "menuItem",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      }
     ],
-    "LastModifiedTimestamp": "638470549332190921",
+    "LastModifiedTimestamp": "638470554096929193",
     "Name": "HamburgerMenu",
     "Rules": [
       {
         "Category": "Data",
-        "InvariantScript": "Hamburgers",
+        "InvariantScript": "Table({Screen : \"\", Name: \"\"})",
         "Property": "menuItem",
         "RuleProviderType": "System"
       },
@@ -1675,7 +1682,7 @@
       "Name": "menuItem",
       "PropertyDataTypeKey": "Table",
       "Tooltip": "menu item",
-      "Type": "{\"Version\":\"1.338\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Table\",\"EnumString\":\"\",\"Type\":[{\"Name\":\"_ownerid_value\",\"Kind\":\"Polymorphic\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"cr897_hamburger_AsyncOperations\",\"Kind\":\"DataEntity\",\"EnumString\":\"\",\"DataEntity\":{\"EntityInfoIdentity\":\"asyncoperation\",\"EntityInfoName\":\"cr897_hamburger_AsyncOperations\",\"EntityInfoIsTable\":true,\"EntityInfoParentDSName\":\"Hamburgers\",\"EntityInfoRelatedEntityPath\":\"\"}},{\"Name\":\"cr897_hamburger_BulkDeleteFailures\",\"Kind\":\"DataEntity\",\"EnumString\":\"\",\"DataEntity\":{\"EntityInfoIdentity\":\"bulkdeletefailure\",\"EntityInfoName\":\"cr897_hamburger_BulkDeleteFailures\",\"EntityInfoIsTable\":true,\"EntityInfoParentDSName\":\"Hamburgers\",\"EntityInfoRelatedEntityPath\":\"\"}},{\"Name\":\"cr897_hamburger_DuplicateBaseRecord\",\"Kind\":\"DataEntity\",\"EnumString\":\"\",\"DataEntity\":{\"EntityInfoIdentity\":\"duplicaterecord\",\"EntityInfoName\":\"cr897_hamburger_DuplicateBaseRecord\",\"EntityInfoIsTable\":true,\"EntityInfoParentDSName\":\"Hamburgers\",\"EntityInfoRelatedEntityPath\":\"\"}},{\"Name\":\"cr897_hamburger_DuplicateMatchingRecord\",\"Kind\":\"DataEntity\",\"EnumString\":\"\",\"DataEntity\":{\"EntityInfoIdentity\":\"duplicaterecord\",\"EntityInfoName\":\"cr897_hamburger_DuplicateMatchingRecord\",\"EntityInfoIsTable\":true,\"EntityInfoParentDSName\":\"Hamburgers\",\"EntityInfoRelatedEntityPath\":\"\"}},{\"Name\":\"cr897_hamburger_MailboxTrackingFolders\",\"Kind\":\"DataEntity\",\"EnumString\":\"\",\"DataEntity\":{\"EntityInfoIdentity\":\"mailboxtrackingfolder\",\"EntityInfoName\":\"cr897_hamburger_MailboxTrackingFolders\",\"EntityInfoIsTable\":true,\"EntityInfoParentDSName\":\"Hamburgers\",\"EntityInfoRelatedEntityPath\":\"\"}},{\"Name\":\"cr897_hamburger_PrincipalObjectAttributeAccesses\",\"Kind\":\"DataEntity\",\"EnumString\":\"\",\"DataEntity\":{\"EntityInfoIdentity\":\"principalobjectattributeaccess\",\"EntityInfoName\":\"cr897_hamburger_PrincipalObjectAttributeAccesses\",\"EntityInfoIsTable\":true,\"EntityInfoParentDSName\":\"Hamburgers\",\"EntityInfoRelatedEntityPath\":\"\"}},{\"Name\":\"cr897_hamburger_ProcessSession\",\"Kind\":\"DataEntity\",\"EnumString\":\"\",\"DataEntity\":{\"EntityInfoIdentity\":\"processsession\",\"EntityInfoName\":\"cr897_hamburger_ProcessSession\",\"EntityInfoIsTable\":true,\"EntityInfoParentDSName\":\"Hamburgers\",\"EntityInfoRelatedEntityPath\":\"\"}},{\"Name\":\"cr897_hamburger_SyncErrors\",\"Kind\":\"DataEntity\",\"EnumString\":\"\",\"DataEntity\":{\"EntityInfoIdentity\":\"syncerror\",\"EntityInfoName\":\"cr897_hamburger_SyncErrors\",\"EntityInfoIsTable\":true,\"EntityInfoParentDSName\":\"Hamburgers\",\"EntityInfoRelatedEntityPath\":\"\"}},{\"Name\":\"cr897_hamburgerid\",\"Kind\":\"Guid\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"cr897_name\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"cr897_route\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"createdby\",\"Kind\":\"DataEntity\",\"EnumString\":\"\",\"DataEntity\":{\"EntityInfoIdentity\":\"systemuser\",\"EntityInfoName\":\"createdby\",\"EntityInfoIsTable\":false,\"EntityInfoParentDSName\":\"Hamburgers\",\"EntityInfoRelatedEntityPath\":\"\"}},{\"Name\":\"createdon\",\"Kind\":\"DateTime\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"createdonbehalfby\",\"Kind\":\"DataEntity\",\"EnumString\":\"\",\"DataEntity\":{\"EntityInfoIdentity\":\"systemuser\",\"EntityInfoName\":\"createdonbehalfby\",\"EntityInfoIsTable\":false,\"EntityInfoParentDSName\":\"Hamburgers\",\"EntityInfoRelatedEntityPath\":\"\"}},{\"Name\":\"importsequencenumber\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"modifiedby\",\"Kind\":\"DataEntity\",\"EnumString\":\"\",\"DataEntity\":{\"EntityInfoIdentity\":\"systemuser\",\"EntityInfoName\":\"modifiedby\",\"EntityInfoIsTable\":false,\"EntityInfoParentDSName\":\"Hamburgers\",\"EntityInfoRelatedEntityPath\":\"\"}},{\"Name\":\"modifiedon\",\"Kind\":\"DateTime\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"modifiedonbehalfby\",\"Kind\":\"DataEntity\",\"EnumString\":\"\",\"DataEntity\":{\"EntityInfoIdentity\":\"systemuser\",\"EntityInfoName\":\"modifiedonbehalfby\",\"EntityInfoIsTable\":false,\"EntityInfoParentDSName\":\"Hamburgers\",\"EntityInfoRelatedEntityPath\":\"\"}},{\"Name\":\"overriddencreatedon\",\"Kind\":\"DateTime\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"owningbusinessunit\",\"Kind\":\"DataEntity\",\"EnumString\":\"\",\"DataEntity\":{\"EntityInfoIdentity\":\"businessunit\",\"EntityInfoName\":\"owningbusinessunit\",\"EntityInfoIsTable\":false,\"EntityInfoParentDSName\":\"Hamburgers\",\"EntityInfoRelatedEntityPath\":\"\"}},{\"Name\":\"owningteam\",\"Kind\":\"DataEntity\",\"EnumString\":\"\",\"DataEntity\":{\"EntityInfoIdentity\":\"team\",\"EntityInfoName\":\"owningteam\",\"EntityInfoIsTable\":false,\"EntityInfoParentDSName\":\"Hamburgers\",\"EntityInfoRelatedEntityPath\":\"\"}},{\"Name\":\"owninguser\",\"Kind\":\"DataEntity\",\"EnumString\":\"\",\"DataEntity\":{\"EntityInfoIdentity\":\"systemuser\",\"EntityInfoName\":\"owninguser\",\"EntityInfoIsTable\":false,\"EntityInfoParentDSName\":\"Hamburgers\",\"EntityInfoRelatedEntityPath\":\"\"}},{\"Name\":\"statecode\",\"Kind\":\"OptionSetValue\",\"EnumString\":\"\",\"OptionSet\":{\"OptionSetIsValue\":true,\"OptionSetName\":\"Status (Hamburgers)\"}},{\"Name\":\"statuscode\",\"Kind\":\"OptionSetValue\",\"EnumString\":\"\",\"OptionSet\":{\"OptionSetIsValue\":true,\"OptionSetName\":\"Status Reason (Hamburgers)\"}},{\"Name\":\"timezoneruleversionnumber\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"utcconversiontimezonecode\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"versionnumber\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]}]}}"
+      "Type": "{\"Version\":\"1.338\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Table\",\"EnumString\":\"\",\"Type\":[{\"Name\":\"Name\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"Screen\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]}]}}"
     }
   ],
   "FirstParty": true,
@@ -1686,7 +1693,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638470549332190921",
+  "LastModifiedTimestamp": "638470554096929193",
   "Name": "647c8953c2a2403fbc0933a85f8f778b",
   "OverridableProperties": {},
   "Version": "1.0"

@@ -39,6 +39,13 @@
       "Values": {
         "Information": "ccb8686e-bcac-4186-a512-7cd32058b45c"
       }
+    },
+    {
+      "Kind": "default.cds_cr897_nieuwetabel_forms",
+      "Namespace": "Nieuwe tabellen (Formulieren)",
+      "Values": {
+        "Information": "066817c2-77bb-4b59-aebb-ffddffe08089"
+      }
     }
   ]
 }
