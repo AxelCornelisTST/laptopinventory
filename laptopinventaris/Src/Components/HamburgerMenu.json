@@ -810,7 +810,7 @@
               },
               {
                 "Category": "Behavior",
-                "InvariantScript": "Set(HamburgerVisible, false); Navigate(ThisItem.Screen); Set(ScanVariable, Blank())",
+                "InvariantScript": "Set(HamburgerVisible, false);Navigate(ThisItem.Screen); Set(ScanVariable, Blank()) ",
                 "Property": "OnSelect",
                 "RuleProviderType": "User"
               }
@@ -1421,7 +1421,7 @@
           },
           {
             "Category": "Data",
-            "InvariantScript": "'Nieuwe tabellen'",
+            "InvariantScript": "Table(\r\n{\r\n    Name: \"New Scan\",\r\n    Screen: ScanScreen\r\n},\r\n{\r\n    Name: \"Test\",\r\n    Screen: Test\r\n}\r\n\r\n)",
             "Property": "Items",
             "RuleProviderType": "Unknown"
           },
@@ -1493,7 +1493,7 @@
           },
           {
             "Category": "Design",
-            "InvariantScript": "0.00",
+            "InvariantScript": "10",
             "Property": "Y",
             "RuleProviderType": "Unknown"
           },
@@ -1608,25 +1608,11 @@
       },
       "X",
       "Y",
-      "ZIndex",
-      {
-        "AFDDataSourceName": "",
-        "AutoRuleBindingEnabled": false,
-        "AutoRuleBindingString": "Tabl({Screen : \"\", Name: \"\"})",
-        "InvariantPropertyName": "menuItem",
-        "IsLockable": false,
-        "NameMapSourceSchema": "?"
-      }
+      "ZIndex"
     ],
-    "LastModifiedTimestamp": "638470556349210330",
+    "LastModifiedTimestamp": "638470558706313607",
     "Name": "HamburgerMenu",
     "Rules": [
-      {
-        "Category": "Data",
-        "InvariantScript": "Table({Screen : \"\", Name: \"\"})",
-        "Property": "menuItem",
-        "RuleProviderType": "System"
-      },
       {
         "Category": "Design",
         "InvariantScript": "1",
@@ -1674,17 +1660,7 @@
   },
   "ComponentType": "CanvasComponent",
   "CustomGroupControlTemplateName": "",
-  "CustomProperties": [
-    {
-      "Category": 0,
-      "DisplayName": "menuItem",
-      "Hidden": false,
-      "Name": "menuItem",
-      "PropertyDataTypeKey": "Table",
-      "Tooltip": "menu item",
-      "Type": "{\"Version\":\"1.338\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Table\",\"EnumString\":\"\",\"Type\":[{\"Name\":\"Name\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"Screen\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]}]}}"
-    }
-  ],
+  "CustomProperties": [],
   "FirstParty": true,
   "Id": "http://microsoft.com/appmagic/Component",
   "IsComponentLocked": false,
@@ -1693,7 +1669,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638470556349210330",
+  "LastModifiedTimestamp": "638470558706313607",
   "Name": "647c8953c2a2403fbc0933a85f8f778b",
   "OverridableProperties": {},
   "Version": "1.0"

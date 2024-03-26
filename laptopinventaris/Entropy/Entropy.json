@@ -74,7 +74,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "03/26/2024 13:13:55",
+  "HeaderLastSavedDateTimeUTC": "03/26/2024 13:17:52",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -87,15 +87,11 @@
     "647c8953c2a2403fbc0933a85f8f778b": 0
   },
   "OrderDataSource": {
-    "CustomGallerySample": 7,
-    "Laptop Inventories": 6,
+    "CustomGallerySample": 4,
+    "Laptop Inventories": 3,
     "Laptop Inventories\\cr897_laptopinva726b_statecode": 0,
     "Laptop Inventories\\cr897_laptopinva726b_statuscode": 1,
-    "Laptop Inventories\\default.cds_cr897_laptopinva726b_views": 4,
-    "Nieuwe tabellen": 8,
-    "Nieuwe tabellen\\cr897_nieuwetabel_statecode": 2,
-    "Nieuwe tabellen\\cr897_nieuwetabel_statuscode": 3,
-    "Nieuwe tabellen\\default.cds_cr897_nieuwetabel_views": 5
+    "Laptop Inventories\\default.cds_cr897_laptopinva726b_views": 2
   },
   "OrderGroupControls": {},
   "OrderPcfTemplate": {
@@ -283,7 +279,7 @@
     "DisplayScanScreen": 0,
     "DSContainer": 6,
     "DSHeader": 7,
-    "DSHTitle": 9,
+    "DSHTitle": 8,
     "DSItemContainer": 10,
     "EditForm": 11,
     "ErrorMessage33": 16,
@@ -298,7 +294,7 @@
     "HamburgerMenu": 0,
     "HamburgerMenu_A": 3,
     "HamburgerMenu_A_1": 49,
-    "HamburgerMenu_B": 8,
+    "HamburgerMenu_B": 9,
     "Host": 0,
     "Model_DataCard6": 38,
     "Name_DataCard6": 12,

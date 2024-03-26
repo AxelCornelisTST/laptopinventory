@@ -1,8 +1,6 @@
 HamburgerMenu As CanvasComponent:
     Fill: =RGBA(0, 0, 0, 0)
     Height: =600
-    menuItem: |-
-        =Table({Screen : "", Name: ""})
     Width: =300
     X: =0
     Y: =0
@@ -12,14 +10,25 @@ HamburgerMenu As CanvasComponent:
         BorderColor: =RGBA(245, 245, 245, 1)
         DelayItemLoading: =true
         Height: =Buttons.AllItemsCount * Buttons.TemplateHeight
-        Items: ='Nieuwe tabellen'
+        Items: |-
+            =Table(
+            {
+                Name: "New Scan",
+                Screen: ScanScreen
+            },
+            {
+                Name: "Test",
+                Screen: Test
+            }
+            
+            )
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         TemplatePadding: =0.00
         TemplateSize: =83
         Width: =Parent.Width
         X: =0.00
-        Y: =0.00
+        Y: =10
         ZIndex: =2
 
         Background As rectangle:
@@ -99,7 +108,7 @@ HamburgerMenu As CanvasComponent:
             FocusedBorderThickness: =4
             Height: =Buttons.TemplateHeight
             HoverFill: =RGBA(0,0,0,0)
-            OnSelect: =Set(HamburgerVisible, false); Navigate(ThisItem.Screen); Set(ScanVariable, Blank())
+            OnSelect: =Set(HamburgerVisible, false);Navigate(ThisItem.Screen); Set(ScanVariable, Blank()) 
             PressedFill: =RGBA(0, 120, 212, 1)
             Width: |
                 =Parent.Width

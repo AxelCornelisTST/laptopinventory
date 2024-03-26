@@ -44,7 +44,6 @@
           "NameMapSourceSchema": "?"
         },
         "ZIndex",
-        "menuItem",
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
@@ -73,11 +72,6 @@
       "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
-        {
-          "Category": "Data",
-          "PropertyName": "menuItem",
-          "RuleProviderType": "System"
-        },
         {
           "Category": "Design",
           "PropertyName": "Width",
