@@ -69,7 +69,7 @@ HamburgerMenu As CanvasComponent:
             HoverColor: =RGBA(16, 110, 190, 1)
             HoverFill: =RGBA(0, 0, 0, 0)
             Icon: =Icon.ChevronRight
-            OnSelect: = Set(HamburgerVisible, false); Navigate(ThisItem.Screen);
+            OnSelect: = Set(HamburgerVisible, false); 
             PaddingBottom: =15
             PaddingTop: =15
             PressedBorderColor: =RGBA(0, 0, 0, 0)

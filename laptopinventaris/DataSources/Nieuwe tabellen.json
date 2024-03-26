@@ -54,7 +54,7 @@
     }
   },
   {
-    "DisplayName": "Status (Nieuwe tabellen)_1",
+    "DisplayName": "Status (Nieuwe tabellen)",
     "Name": "cr897_nieuwetabel_statecode",
     "OptionSetInfoNameMapping": {
       "0": "Active",
@@ -74,48 +74,8 @@
     "Type": "OptionSetInfo"
   },
   {
-    "DisplayName": "Status Reason (Nieuwe tabellen)_1",
-    "Name": "cr897_nieuwetabel_statuscode",
-    "OptionSetInfoNameMapping": {
-      "1": "Active",
-      "2": "Inactive"
-    },
-    "OptionSetIsBooleanValued": false,
-    "OptionSetIsGlobal": false,
-    "OptionSetReference": {
-      "OptionSetReferenceItem0": {
-        "OptionSetReferenceColumnName": "statuscode",
-        "OptionSetReferenceEntityName": "Nieuwe tabellen"
-      }
-    },
-    "OptionSetTypeKey": "StatusType",
-    "RelatedColumnInvariantName": "statuscode",
-    "RelatedEntityName": "Nieuwe tabellen",
-    "Type": "OptionSetInfo"
-  },
-  {
-    "DisplayName": "Status (Nieuwe tabellen)",
-    "Name": "new_reserveentity_rp53fd1p1ekxpa_t7_1e3af0f448_statecode",
-    "OptionSetInfoNameMapping": {
-      "0": "Active",
-      "1": "Inactive"
-    },
-    "OptionSetIsBooleanValued": false,
-    "OptionSetIsGlobal": false,
-    "OptionSetReference": {
-      "OptionSetReferenceItem0": {
-        "OptionSetReferenceColumnName": "statecode",
-        "OptionSetReferenceEntityName": "Nieuwe tabellen"
-      }
-    },
-    "OptionSetTypeKey": "StateType",
-    "RelatedColumnInvariantName": "statecode",
-    "RelatedEntityName": "Nieuwe tabellen",
-    "Type": "OptionSetInfo"
-  },
-  {
     "DisplayName": "Status Reason (Nieuwe tabellen)",
-    "Name": "new_reserveentity_rp53fd1p1ekxpa_t7_1e3af0f448_statuscode",
+    "Name": "cr897_nieuwetabel_statuscode",
     "OptionSetInfoNameMapping": {
       "1": "Active",
       "2": "Inactive"

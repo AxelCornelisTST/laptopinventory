@@ -8,6 +8,13 @@
       }
     },
     {
+      "Kind": "default.cds_cr897_nieuwetabel_forms",
+      "Namespace": "Nieuwe tabellen (Formulieren)",
+      "Values": {
+        "Information": "066817c2-77bb-4b59-aebb-ffddffe08089"
+      }
+    },
+    {
       "Kind": "default.cds_cr897_hamburger_forms",
       "Namespace": "Hamburgers (Formulieren)",
       "Values": {
@@ -38,13 +45,6 @@
       "Namespace": "Hamburgers_1 (Formulieren)",
       "Values": {
         "Information": "ccb8686e-bcac-4186-a512-7cd32058b45c"
-      }
-    },
-    {
-      "Kind": "default.cds_cr897_nieuwetabel_forms",
-      "Namespace": "Nieuwe tabellen (Formulieren)",
-      "Values": {
-        "Information": "066817c2-77bb-4b59-aebb-ffddffe08089"
       }
     }
   ]
