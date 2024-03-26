@@ -120,7 +120,7 @@
             LayoutMinHeight: =70
             LayoutMinWidth: =280
             OnCancel: =false
-            OnScan: |
+            OnScan: |-
                 =Set(
                     ScanVariable,
                     First(BarcodeReader.Barcodes).Value
