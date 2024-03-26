@@ -389,14 +389,7 @@
           "NameMapSourceSchema": "?"
         },
         "ZIndex",
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "Table(\r\nClearCollect(HamburerMenu, {\r\n    Name: \"New Scan\",\r\n    Screen: Scan\r\n},{\r\n    Name: \"New Entry\",\r\n    Screen: AddEntry\r\n})",
-          "InvariantPropertyName": "menuItem",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
+        "menuItem",
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
@@ -428,7 +421,7 @@
         {
           "Category": "Data",
           "PropertyName": "menuItem",
-          "RuleProviderType": "Unknown"
+          "RuleProviderType": "System"
         },
         {
           "Category": "Design",

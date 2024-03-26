@@ -133,27 +133,9 @@
                         'Serial Number' = [@ScanVariable]
                     )
                 );
-                
-                If(
-                    IsBlank(ScanRecord),
-                    Navigate(
-                        AddEntryScreen,
-                        ScreenTransition.None
-                    ),
-                    Navigate(
-                        DisplayScanScreen,
-                        ScreenTransition.None
-                    )
-                );
-                If(
-                    IsBlank(ScanRecord),
-                    SerialNumberField.Text = [@ScanVariable],
-                    {}
-                );
-                If(
-                    IsBlank(ScanRecord),
-                    ResetForm(AddEntryForm),
-                    {}
+                Navigate(
+                    DisplayScanScreen,
+                    ScreenTransition.None
                 );
             PaddingBottom: =10
             PaddingLeft: =10

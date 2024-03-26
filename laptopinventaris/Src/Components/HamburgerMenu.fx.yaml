@@ -1,18 +1,7 @@
 HamburgerMenu As CanvasComponent:
     Fill: =RGBA(0, 0, 0, 0)
     Height: =600
-    menuItem: |-
-        =Table(
-        {
-            Name: "New Scan",
-            Screen: ScanScreen
-        },{
-            Name: "New Entry",
-            Screen: AddEntryScreen
-        },{
-            Name: "Test",
-            Screen: Test
-        })
+    menuItem: =Hamburgers
     Width: =300
     X: =0
     Y: =0
@@ -109,7 +98,7 @@ HamburgerMenu As CanvasComponent:
             FocusedBorderThickness: =4
             Height: =Buttons.TemplateHeight
             HoverFill: =RGBA(0,0,0,0)
-            OnSelect: =Set(HamburgerVisible, false); Navigate(ThisItem.S); Set(ScanVariable, Blank())
+            OnSelect: =Set(HamburgerVisible, false); Navigate(ThisItem.Screen); Set(ScanVariable, Blank())
             PressedFill: =RGBA(0, 120, 212, 1)
             Width: |
                 =Parent.Width

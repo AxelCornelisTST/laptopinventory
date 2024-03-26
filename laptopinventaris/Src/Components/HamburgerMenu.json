@@ -27,7 +27,7 @@
             "OptimizeForDevices": "Off",
             "Parent": "Buttons",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 100,
+            "PublishOrderIndex": 52,
             "Rules": [
               {
                 "Category": "Design",
@@ -136,7 +136,7 @@
             "OptimizeForDevices": "Off",
             "Parent": "Buttons",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 101,
+            "PublishOrderIndex": 53,
             "Rules": [
               {
                 "Category": "Design",
@@ -403,7 +403,7 @@
             "OptimizeForDevices": "Off",
             "Parent": "Buttons",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 102,
+            "PublishOrderIndex": 54,
             "Rules": [
               {
                 "Category": "Data",
@@ -716,7 +716,7 @@
             "OptimizeForDevices": "Off",
             "Parent": "Buttons",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 103,
+            "PublishOrderIndex": 55,
             "Rules": [
               {
                 "Category": "Design",
@@ -810,7 +810,7 @@
               },
               {
                 "Category": "Behavior",
-                "InvariantScript": "Set(HamburgerVisible, false); Navigate(ThisItem.S); Set(ScanVariable, Blank())",
+                "InvariantScript": "Set(HamburgerVisible, false); Navigate(ThisItem.Screen); Set(ScanVariable, Blank())",
                 "Property": "OnSelect",
                 "RuleProviderType": "User"
               }
@@ -958,7 +958,7 @@
             "OptimizeForDevices": "Off",
             "Parent": "Buttons",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 104,
+            "PublishOrderIndex": 56,
             "Rules": [
               {
                 "Category": "Data",
@@ -1226,7 +1226,7 @@
             "OptimizeForDevices": "Off",
             "Parent": "Buttons",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 105,
+            "PublishOrderIndex": 57,
             "Rules": [
               {
                 "Category": "Design",
@@ -1411,7 +1411,7 @@
         "OptimizeForDevices": "Off",
         "Parent": "HamburgerMenu",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 99,
+        "PublishOrderIndex": 51,
         "Rules": [
           {
             "Category": "Data",
@@ -1609,21 +1609,14 @@
       "X",
       "Y",
       "ZIndex",
-      {
-        "AFDDataSourceName": "",
-        "AutoRuleBindingEnabled": false,
-        "AutoRuleBindingString": "Table(\r\nClearCollect(HamburerMenu, {\r\n    Name: \"New Scan\",\r\n    Screen: Scan\r\n},{\r\n    Name: \"New Entry\",\r\n    Screen: AddEntry\r\n})",
-        "InvariantPropertyName": "menuItem",
-        "IsLockable": false,
-        "NameMapSourceSchema": "?"
-      }
+      "menuItem"
     ],
-    "LastModifiedTimestamp": "638470536635480866",
+    "LastModifiedTimestamp": "638470546307073006",
     "Name": "HamburgerMenu",
     "Rules": [
       {
         "Category": "Data",
-        "InvariantScript": "Table(\n{\n    Name: \"New Scan\",\n    Screen: ScanScreen\n},{\n    Name: \"New Entry\",\n    Screen: AddEntryScreen\n},{\n    Name: \"Test\",\n    Screen: Test\n})",
+        "InvariantScript": "Hamburgers",
         "Property": "menuItem",
         "RuleProviderType": "System"
       },
@@ -1681,8 +1674,8 @@
       "Hidden": false,
       "Name": "menuItem",
       "PropertyDataTypeKey": "Table",
-      "Tooltip": "menu items",
-      "Type": "{\"Version\":\"1.338\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Table\",\"EnumString\":\"\",\"Type\":[{\"Name\":\"Name\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"Screen\",\"Kind\":\"_LimPrimitive\",\"EnumString\":\"\",\"Template\":{\"TemplateName\":\"screen\",\"IsMetaLoc\":false,\"Intangible\":false,\"ExpandoType\":{\"Version\":\"1.338\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Record\",\"EnumString\":\"\",\"Type\":[{\"Name\":\"BackgroundImage\",\"Kind\":\"Image\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"ContentLanguage\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"Fill\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"Height\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"ImagePosition\",\"Kind\":\"Enum\",\"EnumString\":\"%s[Center:\\\"center\\\", Fill:\\\"fill\\\", Fit:\\\"fit\\\", Stretch:\\\"stretch\\\", Tile:\\\"tile\\\"]\",\"Type\":[{\"Name\":\"Center\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"Fill\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"Fit\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"Stretch\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"Tile\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]}]},{\"Name\":\"LoadingSpinner\",\"Kind\":\"Enum\",\"EnumString\":\"%n[Controls:0, Data:1, None:2]\",\"Type\":[{\"Name\":\"Controls\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"Data\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"None\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]}]},{\"Name\":\"LoadingSpinnerColor\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"Name\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"Orientation\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"Printing\",\"Kind\":\"Boolean\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"Size\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"Width\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]}]}},\"Properties\":[{\"Name\":\"Fill\",\"InvariantType\":{\"Version\":\"1.338\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]}},\"PropertyRuleCategory\":\"Design\",\"PropertyDisplayName\":\"Opvullen\"},{\"Name\":\"BackgroundImage\",\"InvariantType\":{\"Version\":\"1.338\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Image\",\"EnumString\":\"\",\"Type\":[]}},\"PropertyRuleCategory\":\"Data\",\"PropertyDisplayName\":\"Achtergrondafbeelding\"},{\"Name\":\"ImagePosition\",\"InvariantType\":{\"Version\":\"1.338\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Enum\",\"EnumString\":\"%s[Center:\\\"center\\\", Fill:\\\"fill\\\", Fit:\\\"fit\\\", Stretch:\\\"stretch\\\", Tile:\\\"tile\\\"]\",\"Type\":[{\"Name\":\"Center\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"Fill\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"Fit\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"Stretch\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"Tile\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]}]}},\"PropertyRuleCategory\":\"Design\",\"PropertyDisplayName\":\"Afbeeldingspositie\"},{\"Name\":\"Height\",\"InvariantType\":{\"Version\":\"1.338\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]}},\"PropertyRuleCategory\":\"Design\",\"PropertyDisplayName\":\"Height\"},{\"Name\":\"Width\",\"InvariantType\":{\"Version\":\"1.338\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]}},\"PropertyRuleCategory\":\"Design\",\"PropertyDisplayName\":\"Width\"},{\"Name\":\"Size\",\"InvariantType\":{\"Version\":\"1.338\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]}},\"PropertyRuleCategory\":\"Design\",\"PropertyDisplayName\":\"Size\"},{\"Name\":\"Orientation\",\"InvariantType\":{\"Version\":\"1.338\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]}},\"PropertyRuleCategory\":\"Design\",\"PropertyDisplayName\":\"Orientation\"},{\"Name\":\"LoadingSpinner\",\"InvariantType\":{\"Version\":\"1.338\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Enum\",\"EnumString\":\"%n[Controls:0, Data:1, None:2]\",\"Type\":[{\"Name\":\"Controls\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"Data\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"None\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]}]}},\"PropertyRuleCategory\":\"Design\",\"PropertyDisplayName\":\"Kringveld laden\"},{\"Name\":\"LoadingSpinnerColor\",\"InvariantType\":{\"Version\":\"1.338\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]}},\"PropertyRuleCategory\":\"Design\",\"PropertyDisplayName\":\"Kleur van het kringveld laden\"},{\"Name\":\"Name\",\"InvariantType\":{\"Version\":\"1.338\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]}},\"PropertyRuleCategory\":\"Design\",\"PropertyDisplayName\":\"Name\"},{\"Name\":\"Printing\",\"InvariantType\":{\"Version\":\"1.338\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Boolean\",\"EnumString\":\"\",\"Type\":[]}},\"PropertyRuleCategory\":\"Data\",\"PropertyDisplayName\":\"Afdrukken\"},{\"Name\":\"ContentLanguage\",\"InvariantType\":{\"Version\":\"1.338\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]}},\"PropertyRuleCategory\":\"Data\",\"PropertyDisplayName\":\"Inhoudstaal\"}]}}]}}"
+      "Tooltip": "menu item",
+      "Type": "{\"Version\":\"1.338\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Table\",\"EnumString\":\"\",\"Type\":[{\"Name\":\"_ownerid_value\",\"Kind\":\"Polymorphic\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"cr897_hamburger_AsyncOperations\",\"Kind\":\"DataEntity\",\"EnumString\":\"\",\"DataEntity\":{\"EntityInfoIdentity\":\"asyncoperation\",\"EntityInfoName\":\"cr897_hamburger_AsyncOperations\",\"EntityInfoIsTable\":true,\"EntityInfoParentDSName\":\"Hamburgers\",\"EntityInfoRelatedEntityPath\":\"\"}},{\"Name\":\"cr897_hamburger_BulkDeleteFailures\",\"Kind\":\"DataEntity\",\"EnumString\":\"\",\"DataEntity\":{\"EntityInfoIdentity\":\"bulkdeletefailure\",\"EntityInfoName\":\"cr897_hamburger_BulkDeleteFailures\",\"EntityInfoIsTable\":true,\"EntityInfoParentDSName\":\"Hamburgers\",\"EntityInfoRelatedEntityPath\":\"\"}},{\"Name\":\"cr897_hamburger_DuplicateBaseRecord\",\"Kind\":\"DataEntity\",\"EnumString\":\"\",\"DataEntity\":{\"EntityInfoIdentity\":\"duplicaterecord\",\"EntityInfoName\":\"cr897_hamburger_DuplicateBaseRecord\",\"EntityInfoIsTable\":true,\"EntityInfoParentDSName\":\"Hamburgers\",\"EntityInfoRelatedEntityPath\":\"\"}},{\"Name\":\"cr897_hamburger_DuplicateMatchingRecord\",\"Kind\":\"DataEntity\",\"EnumString\":\"\",\"DataEntity\":{\"EntityInfoIdentity\":\"duplicaterecord\",\"EntityInfoName\":\"cr897_hamburger_DuplicateMatchingRecord\",\"EntityInfoIsTable\":true,\"EntityInfoParentDSName\":\"Hamburgers\",\"EntityInfoRelatedEntityPath\":\"\"}},{\"Name\":\"cr897_hamburger_MailboxTrackingFolders\",\"Kind\":\"DataEntity\",\"EnumString\":\"\",\"DataEntity\":{\"EntityInfoIdentity\":\"mailboxtrackingfolder\",\"EntityInfoName\":\"cr897_hamburger_MailboxTrackingFolders\",\"EntityInfoIsTable\":true,\"EntityInfoParentDSName\":\"Hamburgers\",\"EntityInfoRelatedEntityPath\":\"\"}},{\"Name\":\"cr897_hamburger_PrincipalObjectAttributeAccesses\",\"Kind\":\"DataEntity\",\"EnumString\":\"\",\"DataEntity\":{\"EntityInfoIdentity\":\"principalobjectattributeaccess\",\"EntityInfoName\":\"cr897_hamburger_PrincipalObjectAttributeAccesses\",\"EntityInfoIsTable\":true,\"EntityInfoParentDSName\":\"Hamburgers\",\"EntityInfoRelatedEntityPath\":\"\"}},{\"Name\":\"cr897_hamburger_ProcessSession\",\"Kind\":\"DataEntity\",\"EnumString\":\"\",\"DataEntity\":{\"EntityInfoIdentity\":\"processsession\",\"EntityInfoName\":\"cr897_hamburger_ProcessSession\",\"EntityInfoIsTable\":true,\"EntityInfoParentDSName\":\"Hamburgers\",\"EntityInfoRelatedEntityPath\":\"\"}},{\"Name\":\"cr897_hamburger_SyncErrors\",\"Kind\":\"DataEntity\",\"EnumString\":\"\",\"DataEntity\":{\"EntityInfoIdentity\":\"syncerror\",\"EntityInfoName\":\"cr897_hamburger_SyncErrors\",\"EntityInfoIsTable\":true,\"EntityInfoParentDSName\":\"Hamburgers\",\"EntityInfoRelatedEntityPath\":\"\"}},{\"Name\":\"cr897_hamburgerid\",\"Kind\":\"Guid\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"cr897_name\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"cr897_route\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"createdby\",\"Kind\":\"DataEntity\",\"EnumString\":\"\",\"DataEntity\":{\"EntityInfoIdentity\":\"systemuser\",\"EntityInfoName\":\"createdby\",\"EntityInfoIsTable\":false,\"EntityInfoParentDSName\":\"Hamburgers\",\"EntityInfoRelatedEntityPath\":\"\"}},{\"Name\":\"createdon\",\"Kind\":\"DateTime\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"createdonbehalfby\",\"Kind\":\"DataEntity\",\"EnumString\":\"\",\"DataEntity\":{\"EntityInfoIdentity\":\"systemuser\",\"EntityInfoName\":\"createdonbehalfby\",\"EntityInfoIsTable\":false,\"EntityInfoParentDSName\":\"Hamburgers\",\"EntityInfoRelatedEntityPath\":\"\"}},{\"Name\":\"importsequencenumber\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"modifiedby\",\"Kind\":\"DataEntity\",\"EnumString\":\"\",\"DataEntity\":{\"EntityInfoIdentity\":\"systemuser\",\"EntityInfoName\":\"modifiedby\",\"EntityInfoIsTable\":false,\"EntityInfoParentDSName\":\"Hamburgers\",\"EntityInfoRelatedEntityPath\":\"\"}},{\"Name\":\"modifiedon\",\"Kind\":\"DateTime\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"modifiedonbehalfby\",\"Kind\":\"DataEntity\",\"EnumString\":\"\",\"DataEntity\":{\"EntityInfoIdentity\":\"systemuser\",\"EntityInfoName\":\"modifiedonbehalfby\",\"EntityInfoIsTable\":false,\"EntityInfoParentDSName\":\"Hamburgers\",\"EntityInfoRelatedEntityPath\":\"\"}},{\"Name\":\"overriddencreatedon\",\"Kind\":\"DateTime\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"owningbusinessunit\",\"Kind\":\"DataEntity\",\"EnumString\":\"\",\"DataEntity\":{\"EntityInfoIdentity\":\"businessunit\",\"EntityInfoName\":\"owningbusinessunit\",\"EntityInfoIsTable\":false,\"EntityInfoParentDSName\":\"Hamburgers\",\"EntityInfoRelatedEntityPath\":\"\"}},{\"Name\":\"owningteam\",\"Kind\":\"DataEntity\",\"EnumString\":\"\",\"DataEntity\":{\"EntityInfoIdentity\":\"team\",\"EntityInfoName\":\"owningteam\",\"EntityInfoIsTable\":false,\"EntityInfoParentDSName\":\"Hamburgers\",\"EntityInfoRelatedEntityPath\":\"\"}},{\"Name\":\"owninguser\",\"Kind\":\"DataEntity\",\"EnumString\":\"\",\"DataEntity\":{\"EntityInfoIdentity\":\"systemuser\",\"EntityInfoName\":\"owninguser\",\"EntityInfoIsTable\":false,\"EntityInfoParentDSName\":\"Hamburgers\",\"EntityInfoRelatedEntityPath\":\"\"}},{\"Name\":\"statecode\",\"Kind\":\"OptionSetValue\",\"EnumString\":\"\",\"OptionSet\":{\"OptionSetIsValue\":true,\"OptionSetName\":\"Status (Hamburgers)\"}},{\"Name\":\"statuscode\",\"Kind\":\"OptionSetValue\",\"EnumString\":\"\",\"OptionSet\":{\"OptionSetIsValue\":true,\"OptionSetName\":\"Status Reason (Hamburgers)\"}},{\"Name\":\"timezoneruleversionnumber\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"utcconversiontimezonecode\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]},{\"Name\":\"versionnumber\",\"Kind\":\"Number\",\"EnumString\":\"\",\"Type\":[]}]}}"
     }
   ],
   "FirstParty": true,
@@ -1693,7 +1686,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638470536635480866",
+  "LastModifiedTimestamp": "638470546307073006",
   "Name": "647c8953c2a2403fbc0933a85f8f778b",
   "OverridableProperties": {},
   "Version": "1.0"

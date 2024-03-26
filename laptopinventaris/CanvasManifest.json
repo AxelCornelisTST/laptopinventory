@@ -136,7 +136,6 @@
   "ScreenOrder": [
     "ScanScreen",
     "DisplayScanScreen",
-    "AddEntryScreen",
     "Test"
   ]
 }
