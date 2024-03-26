@@ -32,6 +32,13 @@
       "Kind": "default.cds_cr897_hamburger_forms",
       "Namespace": "Hamburgers (Forms)",
       "Values": {}
+    },
+    {
+      "Kind": "default.cds_cr897_newtable_forms",
+      "Namespace": "Hamburgers_1 (Formulieren)",
+      "Values": {
+        "Information": "ccb8686e-bcac-4186-a512-7cd32058b45c"
+      }
     }
   ]
 }

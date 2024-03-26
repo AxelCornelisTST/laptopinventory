@@ -171,18 +171,6 @@
             Y: =141.66
             ZIndex: =2
 
-    Barcode1 As barcode:
-        BarcodeType: =BarcodeType.Auto
-        BorderColor: =RGBA(40, 134, 222, 1)
-        Height: =Parent.Height - 115
-        ShowLiveBarcodeDetection: =false
-        Tooltip: ="scan"
-        Visible: =false
-        Width: =Parent.Width - 30
-        X: =20
-        Y: =20
-        ZIndex: =2
-
     HamburgerComponent_A As HamburgerMenu:
         Height: =300
         Visible: =HamburgerVisible

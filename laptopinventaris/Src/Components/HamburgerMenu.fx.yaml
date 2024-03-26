@@ -22,7 +22,7 @@ HamburgerMenu As CanvasComponent:
         BorderColor: =RGBA(245, 245, 245, 1)
         DelayItemLoading: =true
         Height: =Buttons.AllItemsCount * Buttons.TemplateHeight
-        Items: =HamburgerMenu.menuItem
+        Items: =Hamburgers
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         TemplatePadding: =0.00
@@ -109,7 +109,7 @@ HamburgerMenu As CanvasComponent:
             FocusedBorderThickness: =4
             Height: =Buttons.TemplateHeight
             HoverFill: =RGBA(0,0,0,0)
-            OnSelect: =Set(HamburgerVisible, false); Navigate(ThisItem.Screen); Set(ScanVariable, Blank())
+            OnSelect: =Set(HamburgerVisible, false); Navigate(ThisItem.S); Set(ScanVariable, Blank())
             PressedFill: =RGBA(0, 120, 212, 1)
             Width: |
                 =Parent.Width
