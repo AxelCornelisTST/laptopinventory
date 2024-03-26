@@ -1611,7 +1611,7 @@
       "ZIndex",
       "menuItem"
     ],
-    "LastModifiedTimestamp": "638470546307073006",
+    "LastModifiedTimestamp": "638470549332190921",
     "Name": "HamburgerMenu",
     "Rules": [
       {
@@ -1686,7 +1686,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638470546307073006",
+  "LastModifiedTimestamp": "638470549332190921",
   "Name": "647c8953c2a2403fbc0933a85f8f778b",
   "OverridableProperties": {},
   "Version": "1.0"
